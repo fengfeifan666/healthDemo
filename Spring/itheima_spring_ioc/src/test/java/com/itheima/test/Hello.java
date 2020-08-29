@@ -1,9 +1,0 @@
-package com.itheima.test;
-
-import org.junit.Test;
-
-public class Hello {
-    public static void main(String[] args) {
-        System.out.println("你好");
-    }
-}
