@@ -312,7 +312,7 @@
                         queryString: this.pagination.queryString
                     };
                     //请求后台
-                    axios.post("/checkgroup/findPage.dao",param).then((res) => {
+                    axios.post("/checkgroup/findPage.do",param).then((res) => {
                         //为模型数据赋值，基于vue的双向绑定
                         this.dataList = res.data.rows;
                         this.pagination.total = res.data.total;
